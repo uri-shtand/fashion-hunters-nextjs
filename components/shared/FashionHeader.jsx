@@ -1,11 +1,10 @@
 import { Box, Header, Heading, Nav, Text } from "grommet";
 
 const FashionHeader = () => (
-    <Header align="center" direction="row" flex={false} justify="start" gap="medium" background={{"color":"graph-1"}}>
+    <Header align="center" direction="row" flex={false} justify="start" gap="medium" background={{"color":"neutral-3"}}>
       <Heading>
         Fashion hunters
-  
-      </Heading>
+        </Heading>
       <Nav align="center" direction="row">
         <Box align="baseline" justify="start" direction="column" margin={{"horizontal":"large"}} fill="horizontal">
           <Heading level="3" size="medium" margin={{"vertical":"small"}}>
