@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/Layout';
 import { Grommet } from 'grommet';
-import { customTheme } from "./theme";
+import { customTheme } from "../components/theme";
 
 export default function Home() {
   return (
