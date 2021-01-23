@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "grommet": "^2.16.2",
+    "grommet-theme-aruba": "^0.1.2",
     "next": "10.0.0",
     "polished": "^4.0.5",
     "react": "17.0.1",

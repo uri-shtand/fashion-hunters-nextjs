@@ -1,6 +1,7 @@
-import { deepFreeze } from "grommet/utils";
+import { deepMerge, deepFreeze } from "grommet/utils";
+import { aruba } from 'grommet-theme-aruba';
 
-export const customTheme = deepFreeze({
+export const customTheme = deepMerge(aruba, {
   global: {
     colors: {
       brand: "#ED6F00",
